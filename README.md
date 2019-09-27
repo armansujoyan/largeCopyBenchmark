@@ -27,6 +27,7 @@ chmod +x fileCopyBenchmark.py
 ## Testing results
 
 There are 4 types of situations tested and those situations differ in file size that has to be copied. The performance for each case is shown in the table below. All the tests were executed 20 times and a sample of 20 execution times was collected. Mean of the execution time is chosen to be an estimator.
+
 | Size | Single Thread | 4 Threads | 4 Processes |
 | --- | --- | --- | --- |
 | **1GB** | 1.880059161150001 | 1.2220340130999994 | 1.1681056276499995 |
